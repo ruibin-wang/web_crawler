@@ -1,4 +1,3 @@
-from py2neo import Node, Relationship, Graph, NodeMatcher, RelationshipMatcher
 from neo4j import GraphDatabase
 import random as rand
 
