@@ -7,6 +7,9 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
+ITEM_PIPLINES = {
+    'test_scrapy.piplines.Test_ScrapyPipline': 300,
+}
 
 class TestScrapyPipeline:
     def process_item(self, item, spider):
