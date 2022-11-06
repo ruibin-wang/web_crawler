@@ -56,3 +56,20 @@ if __name__=='__main__':
         infofile.write("\r\n\r\n")
         i = i + 1
     infofile.close()
+
+
+# url = 'https://www.nhs.uk/conditions/eye-cancer/'
+# headers = {
+#         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+#     }
+# html = requests.get(url, headers=headers).text
+# # lxml：html解析库（把HTML代码转化成Python对象）
+# soup = BeautifulSoup(html, 'lxml')
+#
+# xx = soup.find_all(attrs={"class":"nhsuk-grid-column-two-thirds"})
+#
+# print('test')
+
+
+
+
