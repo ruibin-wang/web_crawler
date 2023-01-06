@@ -35,7 +35,8 @@ for index in json_file:
             new_temp.append(indexJ)
 
     whole_pic[index['diagnosis']] += new_temp
-    whole_pic[index['diagnosis']] = list(set(whole_pic[index['diagnosis']]))  ## avoid the duplicate items
+    
+     ## avoid the duplicate items
     temp, new_temp = [], []
 
 
